@@ -14,3 +14,19 @@ Product.create(
 :img_url => 'ruby.jpg',
 :price => 49.50	 )
 
+Product.create(
+:title => 'My world of tank experience',
+:description =>%{<p>These are the new guides for Rails 3.2 based on v3.2.9. 
+	These guides are designed to make you immediately productive with Rails,
+	 and to help you understand how all of the pieces fit together.</p>},
+:img_url => 'ruby.jpg',
+:price => 49.50	 )
+
+Product.create(
+:title => 'My world of tank experience',
+:description =>%{<p>These are the new guides for Rails 3.2 based on v3.2.9. 
+	These guides are designed to make you immediately productive with Rails,
+	 and to help you understand how all of the pieces fit together.</p>},
+:img_url => 'ruby.jpg',
+:price => 49.50	 )
+
