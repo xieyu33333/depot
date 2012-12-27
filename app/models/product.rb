@@ -5,5 +5,6 @@ class Product < ActiveRecord::Base
   validates :title , :uniqueness =>true
   validates :img_url,:format=>{:with=>%r{\.(gif|jpg|png)}i,
                                :message =>"wrong url" 
-}
+  }
+  default_scope :order=> 'title'
 end
